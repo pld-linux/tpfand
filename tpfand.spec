@@ -7,6 +7,7 @@ Group:		Daemons
 Source0:	http://launchpad.net/tp-fan/tpfand/0.94/+download/%{name}-%{version}.tar.gz
 # Source0-md5:	fa08a5c3eebd47842e1fb84b6283416d
 URL:		https://launchpad.net/tp-fan
+BuildRequires:	perl-tools-pod
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 BuildRequires:	sed >= 4.0
